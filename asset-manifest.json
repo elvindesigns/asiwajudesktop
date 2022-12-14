@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/asiwajudesktop/static/css/main.209a3aa6.css",
-    "main.js": "/asiwajudesktop/static/js/main.bafca4c6.js",
+    "main.js": "/asiwajudesktop/static/js/main.42eaa7de.js",
     "static/js/787.4a5775d1.chunk.js": "/asiwajudesktop/static/js/787.4a5775d1.chunk.js",
     "index.html": "/asiwajudesktop/index.html",
     "main.209a3aa6.css.map": "/asiwajudesktop/static/css/main.209a3aa6.css.map",
-    "main.bafca4c6.js.map": "/asiwajudesktop/static/js/main.bafca4c6.js.map",
+    "main.42eaa7de.js.map": "/asiwajudesktop/static/js/main.42eaa7de.js.map",
     "787.4a5775d1.chunk.js.map": "/asiwajudesktop/static/js/787.4a5775d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.209a3aa6.css",
-    "static/js/main.bafca4c6.js"
+    "static/js/main.42eaa7de.js"
   ]
 }
