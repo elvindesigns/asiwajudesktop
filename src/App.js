@@ -64,8 +64,8 @@ useEffect( () => {
     <Router>
        { !isAuthenticated ?  
           <Routes>
-            <Route path="/" element={ <SignIn authenticate={setAuth} isLoading={isLoading} errorMessage={errorMessage} resetErrorMessage={resetErrorMessage}/>} /> 
-            <Route path="/*" element={<Navigate to="/" replace />} />      
+            <Route path="/asiwajudesktop" element={ <SignIn authenticate={setAuth} isLoading={isLoading} errorMessage={errorMessage} resetErrorMessage={resetErrorMessage}/>} /> 
+            <Route path="/*" element={<Navigate to="/asiwajudesktop" replace />} />      
           </Routes> :
           <div className="g-sidenav-show  bg-gray-200">
             <Sidebar/>
