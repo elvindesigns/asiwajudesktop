@@ -1,7 +1,7 @@
 {
   "name": "asiwajudesktop",
   "version": "0.1.0",
-  "homepage": "https://elvindesigns.github.io/asiwajudesktop",
+  "homepage": "https://elvindesigns.github.io/asiwajudesktop/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
