@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/asiwajudesktop/static/css/main.073c9b0a.css",
-    "main.js": "/asiwajudesktop/static/js/main.68568497.js",
+    "main.css": "/asiwajudesktop/static/css/main.209a3aa6.css",
+    "main.js": "/asiwajudesktop/static/js/main.bafca4c6.js",
     "static/js/787.4a5775d1.chunk.js": "/asiwajudesktop/static/js/787.4a5775d1.chunk.js",
-    "static/media/logo.svg": "/asiwajudesktop/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/asiwajudesktop/index.html",
-    "main.073c9b0a.css.map": "/asiwajudesktop/static/css/main.073c9b0a.css.map",
-    "main.68568497.js.map": "/asiwajudesktop/static/js/main.68568497.js.map",
+    "main.209a3aa6.css.map": "/asiwajudesktop/static/css/main.209a3aa6.css.map",
+    "main.bafca4c6.js.map": "/asiwajudesktop/static/js/main.bafca4c6.js.map",
     "787.4a5775d1.chunk.js.map": "/asiwajudesktop/static/js/787.4a5775d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.68568497.js"
+    "static/css/main.209a3aa6.css",
+    "static/js/main.bafca4c6.js"
   ]
 }
