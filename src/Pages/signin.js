@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
-export default function SignIn() {
+
+export default function SignIn(props) {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+
+
   return (
     <body className="bg-gray-200">
         <main className="main-content  mt-0">
@@ -18,19 +23,36 @@ export default function SignIn() {
                         
                         </div>
                     </div>
+                    
                     <div className="card-body">
+                       {props.errorMessage != "" ? <div class="alert alert-primary alert-dismissible text-white" role="alert">
+                            <span class="text-sm">{props.errorMessage}</span>
+                            <button type="button" class="btn-close text-lg py-3 opacity-10"  aria-label="Close" onClick={()=>{
+                                props.resetErrorMessage()
+                            }}>
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>: <div></div>}
                         <form role="form" className="text-start">
                         <div className="input-group input-group-outline my-3">
                             <label className="form-label">Email</label>
-                            <input type="email" className="form-control"/>
+                            <input type="email" className="form-control" onChange={(e)=>{
+                                setEmail(e.target.value)
+                            }}/>
                         </div>
                         <div className="input-group input-group-outline mb-3">
                             <label className="form-label">Password</label>
-                            <input type="password" className="form-control"/>
+                            <input type="password" className="form-control" onChange={(e)=>{
+                                setPassword(e.target.value)
+                            }}/>
                         </div>
                         
                         <div className="text-center">
-                            <button type="button" className="btn bg-gradient-info w-100 my-4 mb-2">Sign in</button>
+                            {!props.isLoading ? <button type="button" className="btn bg-gradient-info w-100 my-4 mb-2" onClick={()=>{
+                                props.authenticate(email, password)
+                            }}>Sign in</button>
+                        :
+                        <button type="button" className="btn bg-gradient-default w-100 my-4 mb-2">Signing In...</button>}
                         </div>
                         
                         </form>
